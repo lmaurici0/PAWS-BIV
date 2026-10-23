@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paws · O cantinho aconchegante do seu pet</title>
+<meta name="description" content="Paws reúne saúde, comunidade e segurança do seu pet em um único aplicativo, com carinho e confiança.">
+<meta name="theme-color" content="#4A90E2">
+<script>document.documentElement.className='js';</script>
+<!-- Fontes do app: Fredoka (títulos), Nunito (texto), Sniglet (logo).
+     Carregadas do Google Fonts. Para uso 100% offline, baixe os arquivos e use @font-face em style.css. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&family=Sniglet:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-paw" viewBox="0 0 24 24"><path d="M12 13c-3 0-5.5 2-5.5 4.5 0 1.7 1.3 2.5 3 2.5 1 0 1.6-.5 2.5-.5s1.5.5 2.5.5c1.7 0 3-.8 3-2.5C17.5 15 15 13 12 13zM5 11a2 2.5 0 1 0 0 .01zM9 6a2 2.8 0 1 0 0 .01zM15 6a2 2.8 0 1 0 0 .01zM19 11a2 2.5 0 1 0 0 .01z"/></symbol>
+ <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5zM11 8v3H8v2h3v3h2v-3h3v-2h-3V8z"/></symbol>
+ <symbol id="i-users" viewBox="0 0 24 24"><path d="M9 4a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM2 20c0-3.5 3-6 7-6s7 2.5 7 6zM17 6a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM18 14c3 .3 5 2.2 5 5h-5z"/></symbol>
+ <symbol id="i-sos" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.5l10 18H2zM11 9v5h2V9zm0 7v2h2v-2z"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.6 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
+</svg>
+
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<div class="progress" id="progress"></div>
+
+<header class="hdr" id="hdr">
+ <div class="container bar">
+  <a class="logo" href="#inicio" aria-label="Paws, página inicial"><span class="logo-badge"><svg class="ic"><use href="#i-paw"/></svg></span><span class="logo-t">Paws</span></a>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu" class="menu" aria-label="Principal">
+   <a href="#inicio">Início</a><a href="#sobre">Sobre nós</a><a href="#equipe">Nossa equipe</a><a href="#solucoes">Soluções</a><a href="#como">Como funciona</a><a href="#numeros">Números</a>
+   <a class="btn sm" href="#contato">Fale conosco</a>
+  </nav>
+ </div>
+</header>
+
+<main id="conteudo">
+<!-- INÍCIO -->
+<section class="hero" id="inicio">
+ <span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span>
+ <svg class="pawfx p1" aria-hidden="true"><use href="#i-paw"/></svg>
+ <svg class="pawfx p2" aria-hidden="true"><use href="#i-paw"/></svg>
+ <svg class="pawfx p3" aria-hidden="true"><use href="#i-paw"/></svg>
+ <div class="container hero-grid">
+  <div class="reveal">
+   <p class="eyebrow">Cuidado com carinho e tecnologia</p>
+   <h1>O cantinho aconchegante de <span class="hl">quem você ama.</span></h1>
+   <p class="lead">A Paws reúne saúde, comunidade e segurança do seu pet em um só aplicativo. Simples de usar, confiável e feito com muito carinho.</p>
+   <div class="cta"><a class="btn" href="#solucoes">Conheça as soluções</a><a class="btn ghost" href="#equipe">Conheça a equipe</a></div>
+  </div>
+  <div class="hero-art reveal">
+   <img class="hero-img float" src="img/hero-pets.svg" alt="Os mascotes da Paws reunidos: cachorro, gato, coelho, periquito, hamster e peixe">
+  </div>
+ </div>
+ <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c240 60 480 60 720 20s480-40 720 10v10H0z"/></svg>
+</section>
+
+<!-- SOBRE NÓS -->
+<section class="sec" id="sobre">
+ <div class="container two">
+  <!-- IMAGEM: troque o bloco por <img src="img/sobre.jpg" alt="..."> -->
+  <div class="ph tilt reveal" role="img" aria-label="Espaço reservado para uma foto do nosso espaço de trabalho">
+   <img class="ph-mascot" src="img/tutu-cachorro.svg" alt="">
+   <span>Foto do nosso espaço<br><small>(inserir depois)</small></span>
+  </div>
+  <div class="reveal">
+   <p class="eyebrow">Sobre nós</p>
+   <h2>Inovação com <span class="hl">responsabilidade</span> e afeto</h2>
+   <p>Fundada em 2025 por tutores, veterinários e engenheiros de software, a Paws nasceu de uma necessidade comum: reunir em um só lugar as informações que protegem a vida de um animal.</p>
+   <p>Criamos soluções que organizam a saúde, aproximam comunidades e agilizam a resposta em emergências, sempre com transparência e respeito aos dados de cada família.</p>
+  </div>
+ </div>
+ <div class="container cards3">
+  <article class="card reveal"><span class="badge"><svg class="ic"><use href="#i-star"/></svg></span><h3>Missão</h3><p>Facilitar o cuidado responsável com tecnologia acessível, acolhedora e confiável.</p></article>
+  <article class="card reveal"><span class="badge y"><svg class="ic"><use href="#i-heart"/></svg></span><h3>Visão</h3><p>Ser a referência em saúde e proteção animal conectada na América Latina.</p></article>
+  <article class="card reveal"><span class="badge o"><svg class="ic"><use href="#i-shield"/></svg></span><h3>Valores</h3><p>Segurança, transparência, empatia e melhoria contínua.</p></article>
+ </div>
+</section>
+
+<!-- NOSSA EQUIPE -->
+<section class="sec alt" id="equipe">
+ <div class="container">
+  <div class="head reveal"><p class="eyebrow">Nossa equipe</p><h2>Gente que ama <span class="hl">bicho</span> e faz acontecer</h2>
+  <p class="sub">Um time pequeno, curioso e apaixonado por animais. Os dados abaixo são fictícios e fáceis de trocar no HTML.</p></div>
+  <div class="team">
+   <!-- Para trocar: altere nome, cargo e resumo. Para a foto, substitua o bloco .photo por <img class="photo" src="img/nome.jpg" alt="Foto de Nome"> -->
+   <article class="member reveal">
+    <div class="photo" role="img" aria-label="Espaço reservado para foto de Marina Duarte"><img src="img/mel-gato.svg" alt=""><small>Foto</small></div>
+    <h3>Marina Duarte</h3><p class="role">Fundadora e CEO</p>
+    <p>Tutora de dois gatos e engenheira de produto. Lidera a visão da Paws e cuida para que tudo seja simples.</p>
+   </article>
+   <article class="member reveal">
+    <div class="photo y" role="img" aria-label="Espaço reservado para foto de Dr. Rafael Menezes"><img src="img/tutu-cachorro.svg" alt=""><small>Foto</small></div>
+    <h3>Dr. Rafael Menezes</h3><p class="role">Veterinário responsável</p>
+    <p>Com 12 anos de clínica, valida cada conteúdo de saúde, vacinas e alimentação do aplicativo.</p>
+   </article>
+   <article class="member reveal">
+    <div class="photo o" role="img" aria-label="Espaço reservado para foto de Camila Torres"><img src="img/nuvem-coelho.svg" alt=""><small>Foto</small></div>
+    <h3>Camila Torres</h3><p class="role">Design de experiência</p>
+    <p>Desenha cada tela e cada mascote, pensando em acolher quem está cuidando de um pet.</p>
+   </article>
+   <article class="member reveal">
+    <div class="photo" role="img" aria-label="Espaço reservado para foto de Lucas Almeida"><img src="img/piu-periquito.svg" alt=""><small>Foto</small></div>
+    <h3>Lucas Almeida</h3><p class="role">Engenharia de software</p>
+    <p>Mantém o aplicativo rápido e seguro, e protege os dados de cada família.</p>
+   </article>
+  </div>
+ </div>
+</section>
+
+<!-- SOLUÇÕES -->
+<section class="sec" id="solucoes">
+ <div class="container">
+  <div class="head reveal"><p class="eyebrow">Soluções</p><h2>Tudo o que o seu pet precisa, <span class="hl">em um só lugar</span></h2></div>
+  <div class="grid">
+   <article class="card feat reveal"><span class="badge"><svg class="ic"><use href="#i-heart"/></svg></span><h3>Saúde organizada</h3><p>Alimentação, consultas e medicamentos com lembretes e histórico.</p></article>
+   <article class="card feat reveal"><span class="badge y"><svg class="ic"><use href="#i-shield"/></svg></span><h3>Carteira de vacina digital</h3><p>Status de cada vacina, alertas de vencimento e exportação em PDF.</p></article>
+   <article class="card feat reveal"><span class="badge"><svg class="ic"><use href="#i-users"/></svg></span><h3>Comunidades</h3><p>Avisos oficiais da sua região e um espaço para trocar experiências.</p></article>
+   <article class="card feat reveal"><span class="badge o"><svg class="ic"><use href="#i-sos"/></svg></span><h3>SOS</h3><p>Acesso rápido a alerta de pet perdido, emergência e contato de confiança.</p></article>
+   <article class="card feat reveal"><span class="badge y"><svg class="ic"><use href="#i-star"/></svg></span><h3>Premium</h3><p>Alerta ampliado de pet perdido, sons personalizados e dietas sob medida.</p></article>
+   <article class="card feat reveal"><span class="badge"><svg class="ic"><use href="#i-paw"/></svg></span><h3>Mascote companheiro</h3><p>Um personagem que reage ao bem-estar do pet e deixa a rotina mais leve.</p></article>
+  </div>
+  <div class="mascots reveal" aria-label="Mascotes da Paws">
+   <img src="img/tutu-cachorro.svg" alt="Tutu, o cachorro"><img src="img/mel-gato.svg" alt="Mel, a gata"><img src="img/nuvem-coelho.svg" alt="Nuvem, o coelho"><img src="img/piu-periquito.svg" alt="Piu, o periquito"><img src="img/pipoca-hamster.svg" alt="Pipoca, o hamster"><img src="img/bolha-peixe.svg" alt="Bolha, o peixe">
+  </div>
+ </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="sec alt" id="como">
+ <div class="container">
+  <div class="head reveal"><p class="eyebrow">Como funciona</p><h2>Três passos, <span class="hl">sem complicação</span></h2></div>
+  <ol class="steps">
+   <li class="reveal"><b>1</b><h3>Cadastre seu pet</h3><p>Informe os dados básicos, escolha um mascote e comece em minutos.</p></li>
+   <li class="reveal"><b>2</b><h3>Acompanhe a rotina</h3><p>Registre refeições, consultas, doses e vacinas.</p></li>
+   <li class="reveal"><b>3</b><h3>Conecte-se e proteja</h3><p>Receba avisos da comunidade e use o SOS quando precisar.</p></li>
+  </ol>
+ </div>
+</section>
+
+<!-- NÚMEROS -->
+<section class="sec nums" id="numeros">
+ <div class="container">
+  <div class="stats">
+   <div class="reveal"><strong data-count="120000" data-prefix="+">0</strong><span>tutores ativos</span></div>
+   <div class="reveal"><strong data-count="480000" data-prefix="+">0</strong><span>vacinas registradas</span></div>
+   <div class="reveal"><strong data-count="98" data-suffix="%">0</strong><span>de satisfação</span></div>
+   <div class="reveal"><strong data-count="24" data-suffix="/7">0</strong><span>acesso ao SOS</span></div>
+  </div>
+  <p class="note">Dados ilustrativos, apenas para demonstração.</p>
+ </div>
+</section>
+
+<!-- CONTATO -->
+<section class="sec" id="contato">
+ <div class="container two">
+  <div class="reveal">
+   <p class="eyebrow">Contato</p>
+   <h2>Vamos <span class="hl">conversar</span></h2>
+   <p>Parcerias, imprensa ou dúvidas: envie uma mensagem e retornaremos em até dois dias úteis.</p>
+   <ul class="info"><li>contato@paws.example</li><li>(11) 0000-0000</li><li>São Paulo, SP</li></ul>
+  </div>
+  <form class="card reveal" id="form" novalidate>
+   <label>Nome<input name="nome" required autocomplete="name"></label>
+   <label>E-mail<input name="email" type="email" required autocomplete="email"></label>
+   <label>Mensagem<textarea name="msg" rows="4" required></textarea></label>
+   <button class="btn" type="submit">Enviar mensagem</button>
+   <p class="msg" id="msg" role="status" aria-live="polite"></p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="ftr">
+ <div class="container">
+  <a class="logo" href="#inicio" aria-label="Voltar ao topo"><span class="logo-badge"><svg class="ic"><use href="#i-paw"/></svg></span><span class="logo-t">Paws</span></a>
+  <small>© 2026 Paws. Site institucional demonstrativo; nenhum dado é enviado ou coletado.</small>
+ </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
