@@ -7,8 +7,6 @@
 <meta name="description" content="Paws reúne saúde, comunidade e segurança do seu pet em um único aplicativo, com carinho e confiança.">
 <meta name="theme-color" content="#4A90E2">
 <script>document.documentElement.className='js';</script>
-<!-- Fontes do app: Fredoka (títulos), Nunito (texto), Sniglet (logo).
-     Carregadas do Google Fonts. Para uso 100% offline, baixe os arquivos e use @font-face em style.css. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&family=Sniglet:wght@800&display=swap" rel="stylesheet">
@@ -32,7 +30,7 @@
   <a class="logo" href="#inicio" aria-label="Paws, página inicial"><span class="logo-badge"><svg class="ic"><use href="#i-paw"/></svg></span><span class="logo-t">Paws</span></a>
   <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
   <nav id="menu" class="menu" aria-label="Principal">
-   <a href="#inicio">Início</a><a href="#sobre">Sobre nós</a><a href="#equipe">Nossa equipe</a><a href="#solucoes">Soluções</a><a href="#como">Como funciona</a><a href="#numeros">Números</a>
+   <a href="#inicio">Início</a><a href="#sobre">Sobre nós</a><a href="#equipe">Equipe</a><a href="#solucoes">Soluções</a><a href="#servicos">Serviços</a><a href="#duvidas">Dúvidas</a>
    <a class="btn sm" href="#contato">Fale conosco</a>
   </nav>
  </div>
@@ -70,8 +68,8 @@
   <div class="reveal">
    <p class="eyebrow">Sobre nós</p>
    <h2>Inovação com <span class="hl">responsabilidade</span> e afeto</h2>
-   <p>Fundada em 2025 por tutores, veterinários e engenheiros de software, a Paws nasceu de uma necessidade comum: reunir em um só lugar as informações que protegem a vida de um animal.</p>
-   <p>Criamos soluções que organizam a saúde, aproximam comunidades e agilizam a resposta em emergências, sempre com transparência e respeito aos dados de cada família.</p>
+   <p>Somos um time de cinco pessoas que ama animais e tecnologia. A Paws nasceu de uma necessidade comum: reunir em um só lugar as informações que protegem a vida de um pet.</p>
+   <p>Criamos soluções que organizam a saúde, aproximam comunidades, ajudam a encontrar bons profissionais e agilizam a resposta em emergências, sempre com transparência e respeito aos dados de cada família.</p>
   </div>
  </div>
  <div class="container cards3">
@@ -85,28 +83,33 @@
 <section class="sec alt" id="equipe">
  <div class="container">
   <div class="head reveal"><p class="eyebrow">Nossa equipe</p><h2>Gente que ama <span class="hl">bicho</span> e faz acontecer</h2>
-  <p class="sub">Um time pequeno, curioso e apaixonado por animais. Os dados abaixo são fictícios e fáceis de trocar no HTML.</p></div>
+  <p class="sub">Cinco pessoas, cada uma cuidando de uma parte do Paws. Nomes, cargos e resumos abaixo são exemplos fáceis de trocar no HTML.</p></div>
   <div class="team">
    <!-- Para trocar: altere nome, cargo e resumo. Para a foto, substitua o bloco .photo por <img class="photo" src="img/nome.jpg" alt="Foto de Nome"> -->
    <article class="member reveal">
     <div class="photo" role="img" aria-label="Espaço reservado para foto de Marina Duarte"><img src="img/mel-gato.svg" alt=""><small>Foto</small></div>
-    <h3>Marina Duarte</h3><p class="role">Fundadora e CEO</p>
+    <h3>João Rodrigues</h3><p class="role">Líder</p>
     <p>Tutora de dois gatos e engenheira de produto. Lidera a visão da Paws e cuida para que tudo seja simples.</p>
    </article>
    <article class="member reveal">
     <div class="photo y" role="img" aria-label="Espaço reservado para foto de Dr. Rafael Menezes"><img src="img/tutu-cachorro.svg" alt=""><small>Foto</small></div>
-    <h3>Dr. Rafael Menezes</h3><p class="role">Veterinário responsável</p>
+    <h3>Júlia Batista</h3><p class="role">Vice-líder/p>
     <p>Com 12 anos de clínica, valida cada conteúdo de saúde, vacinas e alimentação do aplicativo.</p>
    </article>
    <article class="member reveal">
     <div class="photo o" role="img" aria-label="Espaço reservado para foto de Camila Torres"><img src="img/nuvem-coelho.svg" alt=""><small>Foto</small></div>
-    <h3>Camila Torres</h3><p class="role">Design de experiência</p>
-    <p>Desenha cada tela e cada mascote, pensando em acolher quem está cuidando de um pet.</p>
+    <h3>Eric Mauricio</h3><p class="role">Designer</p>
+    <p>Desenhou cada tela do nosso app, pensando em acolher quem está cuidando de um pet.</p>
    </article>
    <article class="member reveal">
     <div class="photo" role="img" aria-label="Espaço reservado para foto de Lucas Almeida"><img src="img/piu-periquito.svg" alt=""><small>Foto</small></div>
-    <h3>Lucas Almeida</h3><p class="role">Engenharia de software</p>
+    <h3>Giulia</h3><p class="role">Escritora do projeto teórico</p>
     <p>Mantém o aplicativo rápido e seguro, e protege os dados de cada família.</p>
+   </article>
+   <article class="member reveal">
+    <div class="photo y" role="img" aria-label="Espaço reservado para foto de Beatriz Nogueira"><img src="img/pipoca-hamster.svg" alt=""><small>Foto</small></div>
+    <h3>Ketellyn</h3><p class="role">Comunidade e atendimento</p>
+    <p>Cuida das comunidades, dos avisos e do contato com tutores e profissionais.</p>
    </article>
   </div>
  </div>
@@ -127,6 +130,24 @@
   <div class="mascots reveal" aria-label="Mascotes da Paws">
    <img src="img/tutu-cachorro.svg" alt="Tutu, o cachorro"><img src="img/mel-gato.svg" alt="Mel, a gata"><img src="img/nuvem-coelho.svg" alt="Nuvem, o coelho"><img src="img/piu-periquito.svg" alt="Piu, o periquito"><img src="img/pipoca-hamster.svg" alt="Pipoca, o hamster"><img src="img/bolha-peixe.svg" alt="Bolha, o peixe">
   </div>
+ </div>
+</section>
+
+<!-- MARKETPLACE DE SERVIÇOS -->
+<section class="sec" id="servicos">
+ <div class="container">
+  <div class="head reveal"><p class="eyebrow">Serviços</p><h2>Bons profissionais, <span class="hl">pertinho de você</span></h2>
+  <p class="sub">Um espaço para profissionais anunciarem seus serviços e para tutores encontrarem, compararem e agendarem com confiança.</p></div>
+  <div class="two2">
+   <article class="card reveal"><span class="badge"><svg class="ic"><use href="#i-paw"/></svg></span><h3>Para tutores</h3>
+    <ul class="ticks"><li>Busca por categoria, distância e avaliação</li><li>Preço já ajustado ao porte do seu pet</li><li>Agendamento em poucos toques</li><li>Avaliações de quem realmente agendou pelo Paws</li></ul></article>
+   <br>
+    <article class="card reveal"><span class="badge y"><svg class="ic"><use href="#i-star"/></svg></span><h3>Para profissionais</h3>
+    <ul class="ticks"><li>Anúncio com fotos, serviços e preços por porte</li><li>Painel para aceitar pedidos e organizar a agenda</li><li>Selo Verificado após conferência de documentos</li><li>Veterinários, banho e tosa, passeio, adestração e mais</li></ul></article>
+  </div>
+  <br>
+  <div class="trust reveal"><span class="badge o"><svg class="ic"><use href="#i-shield"/></svg></span><div><h3>Confiança em primeiro lugar</h3><p>Todo anúncio passa por análise antes de aparecer, pode ser denunciado por qualquer tutor e deixa claro como o pagamento é feito.</p></div></div>
+  <div class="center reveal" style="margin-top:28px"><a class="btn" href="#contato">Quero anunciar meu serviço</a></div>
  </div>
 </section>
 
@@ -152,6 +173,20 @@
    <div class="reveal"><strong data-count="24" data-suffix="/7">0</strong><span>acesso ao SOS</span></div>
   </div>
   <p class="note">Dados ilustrativos, apenas para demonstração.</p>
+ </div>
+</section>
+
+<!-- DÚVIDAS -->
+<section class="sec alt" id="duvidas">
+ <div class="container narrow">
+  <div class="head reveal"><p class="eyebrow">Dúvidas</p><h2>Perguntas <span class="hl">frequentes</span></h2></div>
+  <div class="faq reveal">
+   <details open><summary>O Paws é gratuito?</summary><p>O uso básico é gratuito. O plano Premium libera alerta ampliado de pet perdido, sons personalizados e dietas sob medida.</p></details>
+   <details><summary>Posso cuidar de mais de um pet?</summary><p>Sim. Cada pet tem seu perfil, seu mascote e seu histórico de saúde.</p></details>
+   <details><summary>Como funciona o selo Verificado?</summary><p>O profissional envia documentos que são conferidos pela nossa equipe. Eles não aparecem no anúncio.</p></details>
+   <details><summary>O pagamento dos serviços é feito pelo app?</summary><p>Não nesta primeira versão. O pagamento é combinado diretamente com o profissional e isso fica claro antes de enviar o pedido.</p></details>
+   <details><summary>Meus dados estão seguros?</summary><p>Tratamos os dados de cada família com transparência e só pedimos o que é necessário para o cuidado do pet.</p></details>
+  </div>
  </div>
 </section>
 
